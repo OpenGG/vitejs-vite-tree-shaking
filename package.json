@@ -1,0 +1,21 @@
+{
+  "name": "vite-vue-typescript-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "test": "vite build && node test.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "ansi-colors-es6": "^5.0.0",
+    "fast-glob": "^3.2.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
